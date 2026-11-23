@@ -1,0 +1,7 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    { "name": "Open in Chrome (Live Server running)", "type": "chrome", "request": "launch",
+      "url": "http://127.0.0.1:5500/index.html", "webRoot": "${workspaceFolder}" }
+  ]
+}

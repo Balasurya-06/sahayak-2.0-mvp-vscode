@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SAHAYAK 2.0 – Working Prototype (MVP)</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header><div><h1>SAHAYAK 2.0 <small>Voice-first, learning multi-agent public grievance redressal · working prototype</small></h1></div><div><span class="badge">MVP · synthetic data</span> <button class="btn ghost" style="padding:5px 10px" onclick="resetApp()">Reset demo</button></div></header>
+<nav id="nav"></nav><main><details id="settings"><summary>Parameters (α, δ, τ, q)</summary><div id="setbody"></div></details><div id="view"></div></main>
+<section id="audit"><details open><summary>Audit log (every automatic action is recorded)</summary><div id="auditBody"></div></details></section>
+<!-- core.js = all logic (no DOM). ui.js = screens and events. Order matters. -->
+<script src="js/core.js"></script>
+<script src="js/ui.js"></script>
+</body>
+</html>

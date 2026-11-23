@@ -1,0 +1,10 @@
+{
+  "name": "sahayak-2-0-mvp",
+  "version": "1.0.0",
+  "description": "SAHAYAK 2.0 working prototype: voice-first, learning multi-agent public grievance redressal (browser MVP, synthetic data)",
+  "private": true,
+  "scripts": {
+    "start": "npx --yes serve . -l 5500",
+    "test": "node tests/run-tests.js"
+  }
+}
